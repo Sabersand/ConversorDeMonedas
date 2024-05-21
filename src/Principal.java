@@ -23,7 +23,7 @@ public class Principal {
                     System.out.print("Introduce la divisa base (por ejemplo, USD): ");
                     var divisaBase = scanner.nextLine().toUpperCase();
 
-                    System.out.print("Introduce la divisa objetivo (por ejemplo, EUR): ");
+                    System.out.print("Introduce la divisa a la que quieres convertir tu divisa base (por ejemplo, EUR): ");
                     var divisaObjetivo = scanner.nextLine().toUpperCase();
 
                     System.out.print("Introduce la cantidad a convertir: ");
