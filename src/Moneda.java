@@ -1,2 +1,2 @@
-public record Moneda(String base_code, int conversion_result, String target_code) {
+public record Moneda(String base_code, double conversion_rate, String target_code) {
 }
