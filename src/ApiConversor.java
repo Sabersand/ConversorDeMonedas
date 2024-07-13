@@ -7,7 +7,7 @@ import java.net.http.HttpResponse;
 
 public class ApiConversor {
 
-    private static final String API_KEY = "70171c9556e4044c55ac3108";
+    private static final String API_KEY = "INSERT_API_KEY";
     private static final String BASE_URL = "https://v6.exchangerate-api.com/v6/";
 
     public Moneda obtenerTasaDeCambio(String divisaBase, String divisaObjetivo) {
